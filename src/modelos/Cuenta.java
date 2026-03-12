@@ -1,3 +1,5 @@
+package modelos;
+
 public abstract class Cuenta {
 
     private String titular;
@@ -33,6 +35,6 @@ public abstract class Cuenta {
 
     public abstract boolean retirar(double cantidad);
 
-
+    public abstract String[] getDatos();
 
 }

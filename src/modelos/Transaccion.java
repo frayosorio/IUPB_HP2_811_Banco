@@ -1,3 +1,5 @@
+package modelos;
+
 public class Transaccion {
 
     private Cuenta cuenta;
